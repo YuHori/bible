@@ -3,3 +3,7 @@
 
 ## URL
 https://yuhori.github.io/bible/
+
+```
+made with RPGツクールMV
+```

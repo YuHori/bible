@@ -1,9 +1,5 @@
 [
-{"code":355,"indent":0,"parameters":["var titles = $dataBibleJp['scriptures'].keys();"]},
-{"code":655,"indent":0,"parameters":["var str = \"\";"]},
-{"code":655,"indent":0,"parameters":["for title in titles {"]},
-{"code":655,"indent":0,"parameters":["  str = str + title + \"¥n\";"]},
-{"code":655,"indent":0,"parameters":["  $gameMessage.add(title);"]},
-{"code":655,"indent":0,"parameters":["}"]},
+{"code":355,"indent":0,"parameters":["var titles = Object.keys($dataBibleJp);"]},
+{"code":655,"indent":0,"parameters":["this.setupChoices([titles,4,0,2,0]);"]},
 {"code":655,"indent":0,"parameters":["this.setWaitMode('message');"]}
 ]
